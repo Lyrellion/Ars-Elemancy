@@ -48,6 +48,37 @@ public class ArsElemancy {
 
     }
 
+
+        static {
+            Starbuncle.TEXTURES.put("Frostbuncle", ArsElemancy.prefix("textures/entity/frostbuncle.png"));
+            Starbuncle.MODELS.put("Frostbuncle", ArsElemancy.prefix("geo/frostbuncle.geo.json"));
+        }
+        static {
+            Starbuncle.TEXTURES.put("Pyrobuncle", ArsElemancy.prefix("textures/entity/pyrobuncle.png"));
+            Starbuncle.MODELS.put("Frostbuncle", ArsElemancy.prefix("geo/pyrobuncle.geo.json"));
+        }
+        static {
+            Starbuncle.TEXTURES.put("Cavebuncle", ArsElemancy.prefix("textures/entity/cavebuncle.png"));
+            Starbuncle.MODELS.put("Cavebuncle", ArsElemancy.prefix("geo/cavebuncle.geo.json"));
+        }
+        static {
+            Starbuncle.TEXTURES.put("Cloudbuncle", ArsElemancy.prefix("textures/entity/cloudbuncle.png"));
+            Starbuncle.MODELS.put("Cloudbuncle", ArsElemancy.prefix("geo/cloudbuncle.geo.json"));
+        }
+       // static {
+       //     Starbuncle.TEXTURES.put("Faebuncle", ArsElemancy.prefix("textures/entity/faebuncle.png"));
+       //     Starbuncle.MODELS.put("Faebuncle", ArsElemancy.prefix("geo/faebuncle.geo.json"));
+       // }
+        static {
+            Starbuncle.TEXTURES.put("Sculkbuncle", ArsElemancy.prefix("textures/entity/sculkbuncle.png"));
+            Starbuncle.MODELS.put("Sculkbuncle", ArsElemancy.prefix("geo/sculkbuncle.geo.json"));
+        }
+        static {
+            Starbuncle.TEXTURES.put("Sandbuncle", ArsElemancy.prefix("textures/entity/sandbuncle.png"));
+            Starbuncle.MODELS.put("Sandbuncle", ArsElemancy.prefix("geo/sandbuncle.geo.json"));
+        }
+
+
     static {
         Starbuncle.TEXTURES.put("Lyrellion", ArsElemancy.prefix("textures/entity/starbuncle_lyrellion.png"));
         Starbuncle.MODELS.put("Lyrellion", ArsElemancy.prefix("geo/starbuncle_lyrellion.geo.json"));
