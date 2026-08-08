@@ -47,7 +47,7 @@ public class Datagen {
 
         gen.addProvider(event.includeServer(), new AEAdvancementsProvider(output, provider, existingFileHelper));
         gen.addProvider(event.includeServer(), new AECasterTomeProvider(gen));
-
+        gen.addProvider(event.includeClient(), new AELanguageProvider(output, ArsElemancy.MODID, "en_us"));
     }
 
     public static <T> Collection<T> takeAll(Collection<T> src, Predicate<T> predicate) {
